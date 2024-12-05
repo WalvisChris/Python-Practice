@@ -19,6 +19,12 @@ if len(password) < 12:
      weaknesses += 12-len(password)
 
 # step 4: check amount of different letters relative to length
+freq = {}
+for char in password:
+     freq[char] = password.count(char)
+for value in freq.values():
+     if value > 2:
+        weaknesses += value-2
 
 # result
 print(f"Weaknesses: {weaknesses}")
