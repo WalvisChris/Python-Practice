@@ -1,6 +1,10 @@
 import os
 
-def ask():
+os.system('cls')
+tasks = {}
+
+running = True
+while running:
     user = input("todo> ")
     if 'add' in user:
         parameters = user.split()
@@ -18,11 +22,8 @@ def ask():
         print(tasks)
     elif user == 'help':
         print("- view: shows todo list\n- add <name> <description>: adds to todo list\n- remove <name>: removes from todo list")
+    elif user in ['stop', 'exit', 'bye']:
+        print("Goodbye!")
+        running = False
     else:
         print(f"Unknown command: {user}")
-    ask()
-
-tasks = {}
-
-os.system('cls')
-ask()
