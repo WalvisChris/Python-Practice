@@ -9,6 +9,10 @@ def verify(email):
     if format != '.@.':
         print("not .@.")
         return False
+    at = email.find("@")
+    if email[at-1] not in 'abcdefghijlkmnopqrstuvwxyz' or email[at+1] not in 'abcdefghijlkmnopqrstuvwxyz':
+        print("incorrect text placement")
+        return False
     for char in email:
         if ord(char) in invalid:
             print("in invalid")
