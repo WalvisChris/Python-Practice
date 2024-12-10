@@ -1,3 +1,7 @@
+"""
+counts words
+"""
+
 import os
 
 os.system('cls')

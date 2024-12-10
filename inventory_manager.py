@@ -1,3 +1,7 @@
+"""
+Inventory manager
+"""
+
 import os
 
 class Object:

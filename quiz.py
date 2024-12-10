@@ -1,3 +1,7 @@
+"""
+create a quiz with preset questions
+"""
+
 import os
 import random
 

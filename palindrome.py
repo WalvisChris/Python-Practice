@@ -1,3 +1,7 @@
+"""
+checks if a word is the same spelled backwards
+"""
+
 import os
 
 os.system('cls')

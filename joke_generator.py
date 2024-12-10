@@ -1,3 +1,7 @@
+"""
+Joke generator from jokeapi.dev
+"""
+
 import os
 import requests
 

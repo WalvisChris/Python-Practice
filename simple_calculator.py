@@ -1,3 +1,7 @@
+"""
+bad calculator
+"""
+
 import os
 
 os.system('cls')

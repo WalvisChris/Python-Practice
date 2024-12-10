@@ -1,3 +1,7 @@
+"""
+better version of zodiac teller
+"""
+
 import os
 from datetime import datetime
 

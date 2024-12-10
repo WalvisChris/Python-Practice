@@ -1,3 +1,7 @@
+"""
+non working email validator
+"""
+
 import os
 
 invalid = list(range(32, 64))

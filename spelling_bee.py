@@ -1,3 +1,7 @@
+"""
+spelling bee
+"""
+
 import os
 import pyttsx3
 import random

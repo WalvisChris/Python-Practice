@@ -1,3 +1,7 @@
+"""
+sigma buble sort
+"""
+
 import os
 import time
 

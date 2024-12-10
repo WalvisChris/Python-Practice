@@ -1,3 +1,7 @@
+"""
+simple unit converter
+"""
+
 import os
 
 def handle_prompt(a, b, c):

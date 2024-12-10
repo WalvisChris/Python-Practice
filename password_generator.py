@@ -1,3 +1,7 @@
+"""
+random string generator from list of characters of length 'n'
+"""
+
 import os
 import random
 

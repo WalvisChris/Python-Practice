@@ -1,3 +1,7 @@
+"""
+bad chatbot with preset responses
+"""
+
 import os
 
 responses = {

@@ -1,3 +1,7 @@
+"""
+Rolles 'n' dices
+"""
+
 import os
 import random
 

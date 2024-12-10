@@ -1,3 +1,7 @@
+"""
+a game of rock paper scissors
+"""
+
 import os
 import random
 

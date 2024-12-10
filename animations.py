@@ -1,3 +1,7 @@
+"""
+ASCII animations
+"""
+
 import os
 import time
 

@@ -1,3 +1,7 @@
+"""
+bad todo list
+"""
+
 import os
 
 os.system('cls')

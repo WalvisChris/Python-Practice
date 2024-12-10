@@ -1,3 +1,7 @@
+"""
+area calculator for different shapes
+"""
+
 import os
 from math import pi
 

@@ -1,3 +1,7 @@
+"""
+Calorie maitenance calculator
+"""
+
 import os
 
 os.system('cls')

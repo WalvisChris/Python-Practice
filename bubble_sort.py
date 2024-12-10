@@ -1,3 +1,7 @@
+"""
+Bubble sort custom list
+"""
+
 import os
 
 os.system('cls')

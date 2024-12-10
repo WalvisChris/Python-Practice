@@ -1,3 +1,7 @@
+"""
+generates random outfit from list of clothes
+"""
+
 import os
 import random
 

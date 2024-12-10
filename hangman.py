@@ -1,3 +1,7 @@
+"""
+A game of hangman with a custom wordlist
+"""
+
 import os
 import random
 

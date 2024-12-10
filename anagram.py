@@ -1,3 +1,7 @@
+"""
+Check for anagram: words are made with the same letters
+"""
+
 import os
 
 os.system('cls')

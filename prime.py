@@ -1,3 +1,7 @@
+"""
+checks if number is prime (divisible by any number other than 1 and itself)
+"""
+
 import os
 
 def verify(number):

@@ -1,3 +1,7 @@
+"""
+literally counts vowels
+"""
+
 import os
 
 os.system('cls')

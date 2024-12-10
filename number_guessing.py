@@ -1,3 +1,7 @@
+"""
+simple number guesser
+"""
+
 import random
 import os
 

@@ -1,3 +1,7 @@
+"""
+bad password strength checker
+"""
+
 import os
 
 os.system('cls')

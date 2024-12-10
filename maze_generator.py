@@ -1,3 +1,7 @@
+"""
+non working maze generator (no validation check)
+"""
+
 import os
 import random
 

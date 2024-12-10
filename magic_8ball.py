@@ -1,3 +1,7 @@
+"""
+prints random strings from a list
+"""
+
 import os
 import random
 

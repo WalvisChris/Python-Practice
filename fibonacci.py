@@ -1,3 +1,7 @@
+"""
+Print fibonacci sequence for 'n'
+"""
+
 import os
 
 os.system('cls')

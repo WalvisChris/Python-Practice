@@ -1,3 +1,7 @@
+"""
+finds the longest word in a sentence
+"""
+
 import os
 
 os.system('cls')

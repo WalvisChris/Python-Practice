@@ -1,3 +1,7 @@
+"""
+Calculate BMI
+"""
+
 import os
 
 os.system('cls')
