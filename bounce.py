@@ -4,9 +4,6 @@ class Ball:
     def __init__(self, position, direction):
         self.position = position
         self.direction = direction
-    
-    def __str__(self):
-        return "██"
 
 def show():
     image = ""
