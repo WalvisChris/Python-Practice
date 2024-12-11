@@ -1,4 +1,10 @@
+"""
+Unfinished
+"""
+
 import os
+import random
+import time
 
 class Ball:
     def __init__(self, position, direction):
@@ -14,6 +20,31 @@ def show():
     os.system('cls')
     print(image)
 
+def move():
+    if ball.direction % 3 == 0:
+        ball.position = (ball.position[0] - 1, ball.position[1])
+    else:
+        ball.position = (ball.position[0] + 1, ball.position[1])
+
+    if ball.direction < 2:
+        ball.position = (ball.position[0], ball.position[1] + 1)
+    else:
+        ball.position = (ball.position[0], ball.position[1] - 1)
+    """
+    if ball.direction == 0:
+        ball.position[0] -= 1
+        ball.position[1] += 1
+    elif ball.direction == 1:
+        ball.position[0] += 1
+        ball.position[1] += 1
+    elif ball.direction == 2:
+        ball.position[0] += 1
+        ball.position[1] -= 1
+    else:
+        ball.position[0] -= 1
+        ball.position[1] -= 1
+    """
+
 WIDTH = 15
 HEIGHT = 15
 
@@ -28,4 +59,8 @@ for y in range(HEIGHT):
         else:
             game[y][x] = "  "
 
-show()
+running = True
+while running:
+    show()
+    move()
+    time.sleep(1)

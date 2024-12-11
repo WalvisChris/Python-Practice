@@ -1,3 +1,7 @@
+"""
+Tictactoe in the terminal (type 1-9)
+"""
+
 import os
 import random
 

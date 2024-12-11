@@ -1,5 +1,5 @@
 """
-non working maze generator (no validation check)
+Unfinished
 """
 
 import os

@@ -1,5 +1,5 @@
 """
-sigma buble sort
+sigma bubble sort
 """
 
 import os

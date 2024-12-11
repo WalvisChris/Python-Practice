@@ -1,5 +1,5 @@
 """
-non working email validator
+Unfinished
 """
 
 import os

@@ -1,5 +1,5 @@
 """
-Inventory manager
+Unfinished
 """
 
 import os
