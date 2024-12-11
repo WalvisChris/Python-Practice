@@ -1,3 +1,7 @@
+"""
+Working wordle with default rules and set wordlist
+"""
+
 import os
 import random
 
