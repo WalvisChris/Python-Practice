@@ -20,6 +20,7 @@ sudoku = [
 initial_sudoku = [row[:] for row in sudoku]
 
 def is_valid(horizontal: int, vertical: int, value: int) -> bool:
+    
     # check row
     row = sudoku[vertical]
     if value in row:
